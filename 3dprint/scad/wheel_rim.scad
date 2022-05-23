@@ -1,7 +1,7 @@
 $fn=120;
 difference(){
-cylinder(d=47,h=38);
-translate([0,0,-1])cylinder(d=45,h=40);
+cylinder(d=48,h=38);
+translate([0,0,-1])cylinder(d=46,h=40);
 }
 difference(){
 union()
@@ -13,7 +13,7 @@ for(i=[0:60:300])
 } 
 cylinder(d=16,h=22);
 }
-translate([0,0,-1])cylinder(d=3.35,h=24);
+translate([0,0,-1])cylinder(d=3,h=24);
 }
-rotate([0,0,30])translate([1.15,-2,0])
+rotate([0,0,30])translate([1,-2,0])
 cube(size=[2,4,22]);
