@@ -20,7 +20,7 @@ translate([-5,-70,0])cube([10,64.5,8]);
 rotate([0,0,145])translate([0,-75,0])
 difference(){
 cylinder(d=18,h=10);
-translate([0,0,-1])cylinder(d=6,h=12);
+translate([0,0,-1])cylinder(d=5.9,h=12);
 }
 
 rotate([0,0,75]) translate([0,6,0])
