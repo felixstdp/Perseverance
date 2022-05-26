@@ -11,7 +11,7 @@ translate([-5,-82.5,0])cube([10,78.5,8]);
 
 difference(){
 cylinder(d=20,h=15);
-translate([0,0,-1])cylinder(d=6,h=17);
+translate([0,0,-1])cylinder(d=5.9,h=17);
 }
 
 rotate([0,0,145])
