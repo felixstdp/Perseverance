@@ -13,7 +13,7 @@ difference(){
 translate([50,-6,-40])rotate([-90,0,0])
 cylinder(d=18,h=12);
 translate([50,-10,-40])rotate([-90,0,0])
-cylinder(d=5.8,h=20);
+cylinder(d=5.9,h=20);
 }
 translate([47,0,-45])
 rotate([0,90,0])
