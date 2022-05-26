@@ -6,4 +6,3 @@ La parte mecánica es similar, con alguna evolución para hacerlo más robusto y
 
 Para la electrónica llevará un módulo de radiocontrol sencillo y un Arduino para posicionar los servos, conectado al anterior con un optoacoplador.
 
-![](https://github.com/felixstdp/Perseverance/blob/main/assembly.png)
