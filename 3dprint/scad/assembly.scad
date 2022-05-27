@@ -10,9 +10,9 @@ translate([79,-87,39])rotate([180,0,0])wheel();
 translate([79,141,39])rotate([180,0,0])wheel();
 translate([79,26,59])rotate([180,0,0])wheel();
 
-translate([-12.5,0,-2])rotate([0,180,-90])chassis();
+translate([12.5,0,-16])rotate([0,0,90])chassis();
 
-translate([0,0,-124])mirror([0,0,1]){
+translate([0,0,-136])mirror([0,0,1]){
 rotate([0,0,15])front();
 translate([75,30.5,17])rotate([-90,0,180])rear();
 
@@ -23,9 +23,11 @@ translate([79,-87,39])rotate([180,0,0])wheel();
 translate([79,141,39])rotate([180,0,0])wheel();
 translate([79,26,59])rotate([180,0,0])wheel();
 
-translate([-12.5,0,-2])rotate([0,180,-90])chassis();
+translate([12.5,0,-16])rotate([0,0,90])chassis();
 }
 }
+
+//translate([-128,-50,13])cube([120,140,3]);
 
 module front(){
 $fn=60;
