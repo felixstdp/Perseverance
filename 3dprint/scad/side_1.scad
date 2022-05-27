@@ -11,6 +11,8 @@ translate([26,-1,4])rotate([-90,0,0])
     cylinder(d=2.4,h=50,$fn=20);
 translate([75.5,-1,4])rotate([-90,0,0])
     cylinder(d=2.4,h=50,$fn=20);
+translate([50,12.5,4])rotate([0,90,0])
+    cylinder(d=2,h=50,$fn=20);
 translate([11,7,-1])cube([72,11,12]);
 translate([-43,7,-1])cube([32,11,12]);
 }
