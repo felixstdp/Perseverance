@@ -1,3 +1,4 @@
+//borrar
 difference(){
 union(){
 translate([-50,0,0])cube([140,25,8]);
