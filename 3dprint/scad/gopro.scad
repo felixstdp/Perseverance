@@ -32,5 +32,5 @@ translate([0,12,7.5])rotate([-90,0,0])
 cylinder(d=12,h=20,$fn=30);
 }
 translate([0,15,7.5])rotate([-90,0,0])
-cylinder(d=8.8,h=20,$fn=30);
+cylinder(d=8.4,h=20,$fn=30);
 }
