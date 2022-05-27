@@ -1,0 +1,11 @@
+difference(){
+cube([12,20,4]);
+translate([6,6,-1])cylinder(d=2.4,h=7,$fn=12);
+translate([6,16,-1])cylinder(d=2.4,h=7,$fn=12);
+}
+rotate([150,0,0])translate([0,0,-4])
+difference(){
+cube([12,20,4]);
+translate([6,6,-1])cylinder(d=2.4,h=7,$fn=12);
+translate([6,16,-1])cylinder(d=2.4,h=7,$fn=12);
+}
