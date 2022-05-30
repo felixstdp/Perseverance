@@ -16,7 +16,7 @@ for(i=[0:60:300])
     rotate([0,0,i])translate([3.1,-0.75,0])
     cube(size=[20,1.5,12]);
 } 
-cylinder(d=16,h=22);
+cylinder(d=14,h=22);
 }
 translate([0,0,-1])cylinder(d=d_int,h=24);
 }
