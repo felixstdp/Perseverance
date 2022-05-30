@@ -1,3 +1,4 @@
+rotate([-90,0,0]){
 difference(){
 union(){
 cylinder(r=7.5,h=2.75,$fn=40);
@@ -33,4 +34,5 @@ cylinder(d=12,h=20,$fn=30);
 }
 translate([0,15,7.5])rotate([-90,0,0])
 cylinder(d=8.4,h=20,$fn=30);
+}
 }
