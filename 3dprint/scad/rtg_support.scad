@@ -10,6 +10,6 @@ cube([12,20,3]);
 translate([0,-2.0])cube([12,5,8.5]);
 translate([0,0,5.5])cube([12,20,3]);
 }
-translate([6,6,-1])cylinder(d=2.4,h=7,$fn=12);
-translate([6,16,-1])cylinder(d=2.4,h=7,$fn=12);
+translate([6,6,-1])cylinder(d=2.4,h=10,$fn=12);
+translate([6,16,-1])cylinder(d=2.4,h=10,$fn=12);
 }
