@@ -9,5 +9,5 @@ difference(){
 translate([0,0,1])
 cube([35,46.8,2],center=true);
 
-translate([0,10,30])
+translate([0,3,30])
 cube([50,3,60],center=true);
