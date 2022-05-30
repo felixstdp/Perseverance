@@ -8,8 +8,8 @@ union()
 {
 for(i=[0:60:300])
 {
-    rotate([0,0,i])translate([3,-0.75,0])
-    cube(size=[20,1.5,15]);
+    rotate([0,0,i])translate([3.1,-0.75,0])
+    cube(size=[20,1.5,22]);
 } 
 cylinder(d=16,h=22);
 }
