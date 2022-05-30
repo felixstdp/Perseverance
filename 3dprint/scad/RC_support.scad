@@ -17,4 +17,5 @@ translate([h/2,b/2,-1])cylinder(d=2.4,h=7,$fn=12);
 translate([-h/2,b/2,-1])cylinder(d=2.4,h=7,$fn=12);
 translate([-h/2,-b/2,-1])cylinder(d=2.4,h=7,$fn=12);
 translate([h/2,-b/2,-1])cylinder(d=2.4,h=7,$fn=12);
+translate([0,10,0])cube([h-5,b-5,2.5],center=true);
 }
