@@ -1,3 +1,4 @@
+rotate([-90,0,0]){
 difference(){
 union(){
 cylinder(r=7.5,h=2.75,$fn=40);
@@ -25,3 +26,4 @@ cylinder(d=5,h=3,$fn=20);
 }
 
 translate([-10,12,-1])cube([20,3,20]);
+}
