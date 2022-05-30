@@ -8,4 +8,6 @@ La parte mecánica es similar, con alguna evolución para hacerlo más robusto y
 
 Para la electrónica llevará un módulo de radiocontrol sencillo y un Arduino para posicionar los servos, conectado al anterior con un optoacoplador.
 
+Todo está en la wiki https://bricolabs.cc/wiki/proyectos/perseverance
+
 ![](https://github.com/felixstdp/Perseverance/blob/main/assembly.png)
