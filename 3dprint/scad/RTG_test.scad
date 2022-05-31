@@ -15,13 +15,13 @@ translate([h/2,-b/2,0])cylinder(d=8,h=7,$fn=30);
 }
 translate([5,-1,3])rotate([-90,0,0])cylinder(d=2.4,h=10);
 translate([-5,-1,3])rotate([-90,0,0])cylinder(d=2.4,h=10);
-translate([-10,20,0])cube(20);
+translate([-15,15,-1])cube(30);
 translate([0,28,0])
 {
-translate([h/2,b/2,-1])cylinder(d=2.4,h=8,$fn=12);
-translate([-h/2,b/2,-1])cylinder(d=2.4,h=8,$fn=12);
-translate([-h/2,-b/2,-1])cylinder(d=2.4,h=8,$fn=12);
-translate([h/2,-b/2,-1])cylinder(d=2.4,h=8,$fn=12);
+translate([h/2,b/2,-1])cylinder(d=2.4,h=9,$fn=12);
+translate([-h/2,b/2,-1])cylinder(d=2.4,h=9,$fn=12);
+translate([-h/2,-b/2,-1])cylinder(d=2.4,h=9,$fn=12);
+translate([h/2,-b/2,-1])cylinder(d=2.4,h=9,$fn=12);
 }
 }
 
