@@ -5,7 +5,7 @@ h=35.4;
 difference(){
 union(){
 translate([-25,0,0])cube([50,60,3]);
-translate([-10,0,3])cube([20,10,3]);
+translate([-8.5,0,3])cube([17,10,3]);
 translate([0,28,0]){
 translate([h/2,b/2,0])cylinder(d=8,h=8,$fn=30);
 translate([-h/2,b/2,0])cylinder(d=8,h=8,$fn=30);
