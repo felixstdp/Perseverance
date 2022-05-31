@@ -18,10 +18,10 @@ translate([-5,-1,3])rotate([-90,0,0])cylinder(d=2.4,h=10);
 translate([-15,12,-1])cube(30);
 translate([0,28,0])
 {
-translate([h/2,b/2,-1])cylinder(d=2.4,h=10,$fn=12);
-translate([-h/2,b/2,-1])cylinder(d=2.4,h=10,$fn=12);
-translate([-h/2,-b/2,-1])cylinder(d=2.4,h=10,$fn=12);
-translate([h/2,-b/2,-1])cylinder(d=2.4,h=10,$fn=12);
+translate([h/2,b/2,-1])cylinder(d=2.35,h=10,$fn=12);
+translate([-h/2,b/2,-1])cylinder(d=2.35,h=10,$fn=12);
+translate([-h/2,-b/2,-1])cylinder(d=2.35,h=10,$fn=12);
+translate([h/2,-b/2,-1])cylinder(d=2.35,h=10,$fn=12);
 }
 translate([-16,45,-1])cylinder(d=2.4,h=10);
 translate([16,45,-1])cylinder(d=2.4,h=10);
