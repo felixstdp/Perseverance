@@ -1,6 +1,6 @@
 $fn=120;
 
-d_ext=47.5; // ajustar para que la cubierta encaje
+d_ext=47.7; // ajustar para que la cubierta encaje
 
 d_int=3.1; // ajustar para que el motor encaje
 
