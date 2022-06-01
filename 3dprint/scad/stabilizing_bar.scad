@@ -12,6 +12,9 @@ cylinder(d=20,h=8);
 translate([74,0,5])rotate([90,0,0])
 cylinder(d=10,h=6,center=true);
 
+translate([74,0,5])sphere(4.5);
+translate([-74,0,5])sphere(4.5);
+
 translate([-74,0,5])rotate([90,0,0])
 cylinder(d=10,h=6,center=true);
 
@@ -20,10 +23,10 @@ translate([-74,-3,0])cube([6,6,5]);
 }
 
 translate([74,0,5])rotate([90,0,0])
-cylinder(d=3,h=7,center=true,$fn=30);
+cylinder(d=3.2,h=12,center=true,$fn=30);
 
 translate([-74,0,5])rotate([90,0,0])
-cylinder(d=3,h=7,center=true,$fn=30);
+cylinder(d=3.2,h=12,center=true,$fn=30);
 
 cylinder(d=3,h=10,$fn=30);
 
