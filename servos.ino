@@ -71,9 +71,10 @@ void loop() {
 boolean read(int pin)
 {
   boolean in = 0;
-  for (int i=0; i>10; i++)
+  for (int i=0; i<10; i++)
   {
     in = in || digitalRead (pin);
     delay 2;
   }
+  return in
 }
