@@ -25,5 +25,5 @@ translate([-7.5,0,0])cube([15,15,3]);
 cylinder(d=5,h=3,$fn=20);
 }
 
-translate([-10,12,-1])cube([20,3,20]);
+translate([-12.5,12,-3.5])cube([25,3,25]);
 }
