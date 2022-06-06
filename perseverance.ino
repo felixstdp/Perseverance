@@ -52,7 +52,7 @@ void setup() {
 
 void loop() {
   
-  boolean rotate = (read(D1) && read(D4)) || (read(D2) && read(D3));
+  boolean rotate = (read(D2) && read(D4)) || (read(D1) && read(D3));
   
   if (rotate){
     servo1.write(s1giro); //posicion giro
@@ -72,11 +72,11 @@ void loop() {
 
 boolean read(int pin)
 {
-  boolean in = 0;
+  int in = 0;
   for (int i=0; i<5; i++)
   {
-    in = in || digitalRead(pin);
+    in += digitalRead(pin);
     delay(2);
   }
-  return in;
+  return round(in/5);
 }
