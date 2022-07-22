@@ -11,3 +11,5 @@ Para la electrónica llevará un módulo de radiocontrol sencillo y un Arduino p
 Todo está en la wiki https://bricolabs.cc/wiki/proyectos/perseverance
 
 ![](https://github.com/felixstdp/Perseverance/blob/main/assembly.png)
+
+![](https://github.com/felixstdp/Perseverance/blob/main/optoacoplador_motores.png)
